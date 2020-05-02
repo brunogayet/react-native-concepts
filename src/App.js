@@ -60,7 +60,7 @@ export default function App() {
                   // Remember to replace "1" below with repository ID: {`repository-likes-${repository.id}`}
                   testID={`repository-likes-${repository.id}`}
                 >
-                  {repository.likes} likes
+                  {repository.likes} curtidas
                 </Text>
               </View>
 
@@ -70,7 +70,7 @@ export default function App() {
                 // Remember to replace "1" below with repository ID: {`like-button-${repository.id}`}
                 testID={`like-button-${repository.id}`}
               >
-                <Text style={styles.buttonText}>Like</Text>
+                <Text style={styles.buttonText}>Curtir</Text>
               </TouchableOpacity>
             </View>
           )}
